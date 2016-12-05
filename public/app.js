@@ -11,7 +11,7 @@ var newImg = function( width, src ) {
   return img;
 };
 
-var addNewCat = function( name, favFood, imgSrc ) {
+var addCat = function( name, favFood, imgSrc ) {
   var container = document.createElement( 'ul' );
   container.classList.add( 'cat' );
 
@@ -28,5 +28,5 @@ var addNewCat = function( name, favFood, imgSrc ) {
 };
 
 window.onload = function() {
-  addNewCat( "Mr Meow", "Marmite", "https://i.ytimg.com/vi/cNycdfFEgBc/maxresdefault.jpg" );
+  addCat( "Mr Meow", "Marmite", "https://i.ytimg.com/vi/cNycdfFEgBc/maxresdefault.jpg" );
 };
